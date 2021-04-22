@@ -69,7 +69,7 @@
 			"name": "[variables('publicIPAddressName')]",
 			"location": "[parameters('existingVnetLocation')]",
 			"properties": {
-				"publicIPAllocationMethod": "Dynamic"
+				"publicIPAllocationMethod": "Static"
 			}
 		},
 		{
